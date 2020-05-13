@@ -1,39 +1,131 @@
-body{
-  background-image: url(https://i0.wp.com/emotioncard.com.br/wp-content/uploads/2017/08/f68893e76d27a83aba033c37d2236e86-tumblr-wallpapers-for-iphone-wallpaper-for-iphone.jpg?fit=500%2C714&ssl=1);
-  background-size:auto 100vh;
-  font-family: Arial;
-  height:100vh;
-}
-
-.menu{
-  background-color: whitesmoke;
-}
-
-.menu ul{
-  display:flex;
-  justify-content:space-around;
-}
-.menu li{
-  list-style:none;
-}
-
-a{
-  color:teal;
-  text-decoration:none;
-}
-
-a:hover{
-  text-decoration:underline;
-}
-
-
-.site-title{
-  color:whitesmoke;
-  text-align:center;
-}
+/* soft reset do css*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
   
-.site-subtitle{
- color:whitesmoke;
- text-align:center;
-  font-style:italic;
-}
+  body{
+    background-image: url(https://i0.wp.com/emotioncard.com.br/wp-content/uploads/2017/08/f68893e76d27a83aba033c37d2236e86-tumblr-wallpapers-for-iphone-wallpaper-for-iphone.jpg?fit=500%2C714&ssl=1);
+    background-size:auto 100vh;
+   font-family: 'Raleway', sans-serif;
+    height:100vh;
+    font-size: 18px; 
+  }
+  /* se a tela tiver pelo menos 400px vai carregar estes estilos */  
+  @media(min-width: 400px) {
+   body{
+    font-size: 14px;
+   }
+  }
+
+ 
+  @media(min-widt:600px){
+    body{
+      font-size: 18px;
+    }
+  }
+
+
+  @media (min-widht:1200px)
+  body{
+    font-size:20px
+  }
+  header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu{
+    background-color: whitesmoke;
+    position: fixed;
+    width: 100vw;
+    top:0px;
+  
+  }
+  
+  .menu ul{
+    display:flex;
+    justify-content:space-around;
+  
+  }
+  .menu li{
+    list-style:none;
+  }
+  
+  .menu a{
+    display: block; 
+    padding: 10px 20px;
+  
+  }
+  a{
+    color:teal;
+    text-decoration:none;
+  }
+  
+  a:hover{
+    text-decoration:underline;
+  }
+  
+  .site-subtitle
+  .site-title{
+    color:whitesmoke;
+    text-align:center;
+   
+  }
+  .site-title{
+    font-size: 4em;
+    font-family: 'Permanent Marker', cursive; 
+  }
+    
+  .site-subtitle{
+    font-style:italic;
+    font-family: 'Permanent Marker', cursive;
+    line-height: 1.8em;
+  }
+  .portfolio{
+    padding: 2em;
+    height: 100vh;
+  }
+  
+  .portfolio h2{
+    font-family: 'Shadows Into Light', cursive;
+    color: whitesmoke;
+    margin-bottom: 1,5em;
+    font-size: 2em;
+    }
+    
+    .portfolio .grid{
+        display:grid;
+        gap:2em;         
+    }
+
+    @media(min-width:560px){
+        .portfolio .grid{
+            grid-template-columns:240px 240px;    
+        }
+           
+    }
+
+    @media(min-width:880px){
+        .portfolio .grid{
+            grid-template-columns:repeat(3,260px); 
+            align-content: center;
+            justify-content: center;
+            height: calc(100vh - 8em - 48px);  
+
+        }
+           
+    }   
+   
+    .portfolio figure{
+        text-align: center;
+    }
+  .img-portfolio{
+    height:170px;
+    width:170px;
+    object-fit: cover;
+    object-position: left bottom;
+  }
