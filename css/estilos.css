@@ -27,10 +27,13 @@
   }
 
 
-  @media (min-widht:1200px)
-  body{
-    font-size:20px
+  @media (min-widht:1200px){
+    body{
+      font-size:20px
+    }
+      
   }
+    
   header{
     height: 100vh;
     display: flex;
@@ -83,7 +86,7 @@
   .site-subtitle{
     font-style:italic;
     font-family: 'Permanent Marker', cursive;
-    line-height: 1.8em;
+    line-height: 2.0em;
   }
   .portfolio{
     padding: 2em;
