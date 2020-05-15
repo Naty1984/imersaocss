@@ -6,7 +6,7 @@
   }
   
   body{
-    background-image: url(https://i0.wp.com/emotioncard.com.br/wp-content/uploads/2017/08/f68893e76d27a83aba033c37d2236e86-tumblr-wallpapers-for-iphone-wallpaper-for-iphone.jpg?fit=500%2C714&ssl=1);
+    background-image: url(https://pt.dreamstime.com/o-vetor-ajustou-se-l%C3%A1pis-cont%C3%ADnuo-plantas-preto-e-branco-do-cacto-bonito-um-da-casa-esbo%C3%A7o-desenho-isolado-no-fundo-potted-image142918307);
     background-size:auto 100vh;
    font-family: 'Raleway', sans-serif;
     height:100vh;
@@ -73,17 +73,7 @@
     opacity: 0;
     animation: 1s ease 2s animacaoTitulo forwards;
   }
-  @keyframes animacaoTitulo{
-    from{
-      transform: scale(0.2); translateY(50vh)
-      opacity:0;
-    }
-    to{
-      transform: scale(1); translateY(0)
-      opacity: 1;
-    }
-  }
-  .site-subtitle
+   .site-subtitle
   .site-title{
     color:whitesmoke;
     text-align:center;   
