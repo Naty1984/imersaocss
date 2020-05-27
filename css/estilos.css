@@ -6,7 +6,7 @@
   }
   
   body{
-    background-image: url(https://pt.dreamstime.com/o-vetor-ajustou-se-l%C3%A1pis-cont%C3%ADnuo-plantas-preto-e-branco-do-cacto-bonito-um-da-casa-esbo%C3%A7o-desenho-isolado-no-fundo-potted-image142918307);
+    background-image: url("../img/fundo.jpg");
     background-size:auto 100vh;
    font-family: 'Raleway', sans-serif;
     height:100vh;
@@ -81,6 +81,7 @@
   .site-title{
     font-size: 4em;
     font-family: 'Permanent Marker', cursive; 
+    color: white
   }    
   .site-subtitle{
     font-style:italic;
